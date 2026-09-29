@@ -5,5 +5,17 @@
 }
 
 .comida-container {
-  /* Estilos para el contenedor de la lista */
-}
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 20px;
+};
+
+.card {
+  background-color: blue;
+  color: rgb(145, 255, 0);
+  margin: 2%;
+  width: 200px;
+  padding: 20px;
+  border-radius: 10px;
+};
