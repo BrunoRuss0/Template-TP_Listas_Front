@@ -1,21 +1,14 @@
-*{
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0px;
-}
+
 
 .comida-container {
   display: flex;
   flex-wrap: wrap;
   gap: 20px;
-  padding: 20px;
 };
 
-.card {
-  background-color: blue;
-  color: rgb(145, 255, 0);
-  margin: 2%;
-  width: 200px;
-  padding: 20px;
+.card{
+  background-color: blue; 
+  width: 100%;
+  height: 25%;
   border-radius: 10px;
-};
+} 
